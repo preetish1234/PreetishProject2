@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36957" started-at="2016-10-18T23:35:37Z" finished-at="2016-10-18T23:36:14Z">
+    <groups>
+      <group name="product">
+        <method signature="TestApplication.Product()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="Product" class="com.org.preetish_maven.preetish_maven.TestApplication"/>
+      </group> <!-- product -->
+      <group name="payment">
+        <method signature="TestApplication.Shipping()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="Shipping" class="com.org.preetish_maven.preetish_maven.TestApplication"/>
+      </group> <!-- payment -->
+      <group name="Login">
+        <method signature="TestApplication.LoginTOApp()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="LoginTOApp" class="com.org.preetish_maven.preetish_maven.TestApplication"/>
+      </group> <!-- Login -->
+    </groups>
+    <test name="Test" duration-ms="36957" started-at="2016-10-18T23:35:37Z" finished-at="2016-10-18T23:36:14Z">
+      <class name="com.org.preetish_maven.preetish_maven.TestApplication">
+        <test-method status="PASS" signature="Instance()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="Instance" is-config="true" duration-ms="603" started-at="2016-10-19T05:05:37Z" finished-at="2016-10-19T05:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Instance -->
+        <test-method status="PASS" signature="BrowserEngin()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="BrowserEngin" is-config="true" duration-ms="14631" started-at="2016-10-19T05:05:37Z" finished-at="2016-10-19T05:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserEngin -->
+        <test-method status="PASS" signature="Logconfig()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="Logconfig" is-config="true" duration-ms="46" started-at="2016-10-19T05:05:52Z" finished-at="2016-10-19T05:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logconfig -->
+        <test-method status="PASS" signature="testDb()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="testDb" duration-ms="226" started-at="2016-10-19T05:05:52Z" description="This will take data from database" finished-at="2016-10-19T05:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDb -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="tearDown" is-config="true" duration-ms="561" started-at="2016-10-19T05:05:52Z" finished-at="2016-10-19T05:05:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDb status=SUCCESS method=TestApplication.testDb()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Logconfig()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="Logconfig" is-config="true" duration-ms="124" started-at="2016-10-19T05:05:53Z" finished-at="2016-10-19T05:05:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logconfig -->
+        <test-method status="PASS" signature="LoginTOApp()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="LoginTOApp" duration-ms="5122" started-at="2016-10-19T05:05:53Z" description="This wil login to app" depends-on-methods="com.org.preetish_maven.preetish_maven.TestApplication.testDb" finished-at="2016-10-19T05:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTOApp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="tearDown" is-config="true" duration-ms="96" started-at="2016-10-19T05:05:58Z" finished-at="2016-10-19T05:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTOApp status=SUCCESS method=TestApplication.LoginTOApp()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Logconfig()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="Logconfig" is-config="true" duration-ms="164" started-at="2016-10-19T05:05:58Z" finished-at="2016-10-19T05:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logconfig -->
+        <test-method status="PASS" signature="Product()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="Product" duration-ms="11568" started-at="2016-10-19T05:05:58Z" description="this will select the product and click on checkout" depends-on-methods="com.org.preetish_maven.preetish_maven.TestApplication.LoginTOApp" finished-at="2016-10-19T05:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="tearDown" is-config="true" duration-ms="89" started-at="2016-10-19T05:06:10Z" finished-at="2016-10-19T05:06:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Product status=SUCCESS method=TestApplication.Product()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Logconfig()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="Logconfig" is-config="true" duration-ms="173" started-at="2016-10-19T05:06:10Z" finished-at="2016-10-19T05:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logconfig -->
+        <test-method status="PASS" signature="Shipping()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="Shipping" duration-ms="1740" started-at="2016-10-19T05:06:10Z" description="this wil perfrom shipping details" depends-on-methods="com.org.preetish_maven.preetish_maven.TestApplication.Product" finished-at="2016-10-19T05:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shipping -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="tearDown" is-config="true" duration-ms="60" started-at="2016-10-19T05:06:12Z" finished-at="2016-10-19T05:06:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Shipping status=SUCCESS method=TestApplication.Shipping()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.org.preetish_maven.preetish_maven.TestApplication@14acaea5]" name="tearDown" is-config="true" duration-ms="2328" started-at="2016-10-19T05:06:12Z" finished-at="2016-10-19T05:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.org.preetish_maven.preetish_maven.TestApplication -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

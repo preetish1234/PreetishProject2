@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.org.preetish_maven.preetish_maven.TestApplication">
+        <methods>
+          <include name="testDb"/>
+          <include name="Product"/>
+          <include name="Shipping"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="BrowserEngin"/>
+          <include name="setupReport"/>
+          <include name="Logconfig"/>
+          <include name="LoginTOApp"/>
+        </methods>
+      </class> <!-- com.org.preetish_maven.preetish_maven.TestApplication -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
